@@ -10,7 +10,7 @@ CORS(app)
 MODEL_PATH = "results"
 BASE_MODEL = "distilbert-base-uncased"  # Original model for tokenizer
 
-# Custom label mapping - adjust these based on your specific model training
+
 LABEL_MAPPING = {
     "LABEL_0": "negative",
     "LABEL_1": "negative", 
@@ -72,3 +72,4 @@ def batch_predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
