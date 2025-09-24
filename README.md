@@ -214,6 +214,3 @@ app.run(debug=False)
 - **torch**: PyTorch for model inference
 - **flask-cors**: Cross-Origin Resource Sharing support
 
-## License
-
-This project is for educational/research purposes. Please ensure compliance with model licensing terms when using in production.
