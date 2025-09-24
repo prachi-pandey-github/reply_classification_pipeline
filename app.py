@@ -13,14 +13,8 @@ BASE_MODEL = "distilbert-base-uncased"  # Original model for tokenizer
 
 LABEL_MAPPING = {
     "LABEL_0": "negative",
-    "LABEL_1": "negative", 
-    "LABEL_2": "negative",
-    "LABEL_3": "neutral",
-    "LABEL_4": "neutral",
-    "LABEL_5": "neutral",
-    "LABEL_6": "positive",
-    "LABEL_7": "positive",
-    "LABEL_8": "positive"
+    "LABEL_1": "neutral", 
+    "LABEL_2": "positive",
 }
 
 # Load tokenizer from base model and fine-tuned model
@@ -72,4 +66,5 @@ def batch_predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
